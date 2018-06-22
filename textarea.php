@@ -1,0 +1,5 @@
+<div style="margin-left:'.$marginleft.'px">
+      <div>By <a href="profile.php?un='.$rw["username"].'" target="_blank" style="text-decoration:none; font-size: 22px; color: #4CAF50; font-family: sans-serif;"> '.$rw["username"].'</a>  <i style="margin-top:-10px; font-size: 12px; color: #eaeaea; font-family: sans-serif;">'.$rw['time'].' reply id.#'.$rw['id'].'</i>
+        <p style="font-size: 16px; color: #ACE3C4; font-family: sans-serif; overflow-wrap: break-word;padding-bottom:20px;padding-top:20px;width:70%; margin-left:4%;">'.$rw["texts"].'</p></div>
+      <div><button type="button" class="btn btn-default reply" id="'.$rw["id"].'">Reply</button></div>
+     </div><a href="#" class="showreps" onclick="showReplies(".$cid.")" id=".$cid." style="text-decoration:none; font-size: 12px; color: #eaeaea; font-family: sans-serif; margin-right:10px;">show replies (".$num_reps.")</a> <a href="#" class="hidereps" onclick="hideReplies(".$cid.")" id=".$cid." style="display:none;text-decoration:none; font-size: 12px; color: red; font-family: sans-serif; margin-right:10px;">hide replies</a>
